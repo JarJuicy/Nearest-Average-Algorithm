@@ -12,7 +12,7 @@ The output will be a tuple representing the predicted value.
 <br>
 # Visual Illustration
 The below image showed how this algorithm is going to work. In this case, the orange point with represent the input coordinate, the scattered points in the graph will be the coordinates in the input dataset, and the green points will have their value calculated for average. In this example, the n value will be 3
-![example-image]()
+<img src="https://drive.google.com/uc?export=view&id=XXX" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." />
 # Usage Example
 Place the src.py file in the code directory
 ```python
