@@ -19,9 +19,4 @@ print(learn.predict([(6, 6, 6)], 3, 1.1))
 #(2.0, 4.666666666666667, 5.0)
 ```
 <br>
-# Future Plans
-1) Upload to PyPI
-2) Clean up code and extra comments
-<br>
-<br>
 If you have any questions and/or suggestions, feel free to open up an issue or contact me on briansiyuanzheng@gmail.com
