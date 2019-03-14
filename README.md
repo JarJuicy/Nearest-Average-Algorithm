@@ -2,14 +2,17 @@
 This is a machine learning algorithm I developed on Repl.it
 <br>
 # How Does It Work?
-In this algorithm, the train() function takes in a dictionary of tuples, representing the x-coordinates and the y-coordinates. the predict() function takes three arugments, the input x-coordinate, n, and K. What this algorithm does it that it takes in the input x-coordinate, find the n number of points that is within K distance away from the input, take those coordinates' y-coordinates, and finally calculate the average of the y-coordinates of those points and return it.
+In this algorithm, the train() function takes in a dictionary of tuples, representing the coordinates and the values. the predict() function takes three arugments, the input coordinate, n, and K. What this algorithm does it that it takes in the input coordinate, find the n number of points that is within K distance away from the input, take those coordinates' values, and finally calculate the average of the values of those points and return it.
 <br>
 # Input Format
-The train() function takes in a dictionary of tuples representing the x-coordinate and the corresponding y-coordinate in the form {(x):(y)}. The predict() function takes in arguments in the form predict(input-x-coordinate, n, K). The input-x-coordinate should be a tuple within a list, n should be an integer, and K should either be a float or an integer. 
+The train() function takes in a dictionary of tuples representing the coordinate and the corresponding value in the form {(x):(y)}. The predict() function takes in arguments in the form predict(input-coordinate, n, K). The input-coordinate should be a tuple within a list, n should be an integer, and K should either be a float or an integer. 
 <br>
 # Output Format
-The output will be a tuple representing the predicted y-coordinate.
+The output will be a tuple representing the predicted value.
 <br>
+# Visual Illustration
+The below image showed how this algorithm is going to work. In this case, the orange point with represent the input coordinate, the scattered points in the graph will be the coordinates in the input dataset, and the green points will have their value calculated for average. In this example, the n value will be 3
+![example-image]()
 # Usage Example
 Place the src.py file in the code directory
 ```python
