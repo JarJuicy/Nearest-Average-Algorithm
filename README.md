@@ -11,6 +11,7 @@ The train() function takes in a dictionary of tuples representing the x-coordina
 The output will be a tuple representing the predicted y-coordinate.
 <br>
 # Usage Example
+Place the src.py file in the code directory
 ```python
 from src import main
 learn = main()
