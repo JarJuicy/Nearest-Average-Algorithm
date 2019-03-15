@@ -1,5 +1,5 @@
 # (C)Copyright Brian Zheng 2019, all rights reserved
-# Forking not welcomed
+# This file is under the Apache 2.0 license, for more information, visit the LICENSE.txt file
 from scipy.spatial.distance import euclidean
 
 import collections
