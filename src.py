@@ -6,7 +6,7 @@ import collections
 import numpy as np
 
 class main:
-  # Source code for the K-Best-Average Algorithm
+  # Source code for the K-Best-Average Algorithm(In development)
   # The class "main" requires x_train and y_train for training test data,
   # and the x value for which we need to predict the y
   # The optional arguments are n, the number of y you want to
@@ -19,6 +19,30 @@ class main:
     # It is ok to have n and K set a positive integer at the same time,
     # that will take n cases from K and calculate their average
     self.avg_list = []
+    pass
+  
+  def find_outlier(self, ds):
+    self.ds = sorted(ds)
+    self.o = []
+    q1, q3= np.percentile(self.ds,[25,75])
+    iqr = q3 - q1
+    lower_bound = q1 -(1.5 * iqr) 
+    upper_bound = q3 +(1.5 * iqr) 
+    for i in self.ds:
+      if i < lower_bound or i > upper_bound:
+        self.o.append(i)
+      else:
+        pass
+    return self.o
+
+  def split_data(self, input_data, p):
+    if p > 1:
+      raise Exception("p value should not be bigger than 1")
+    else:
+      self.ir = [input_data[0 : int(len(input_data) * p)]]
+      for f in self.ir[0]:
+        input_data.remove(f)
+      return self.ir[0], input_data
     pass
 
   def train(self, xydict):
