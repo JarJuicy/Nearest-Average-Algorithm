@@ -26,3 +26,5 @@ print(learn.predict([(6, 6, 6)], 3, 1.1))
 If you have any questions and/or suggestions, feel free to open up an issue or contact me on briansiyuanzheng@gmail.com
 <br>
 In the near future I will upload this package to PyPI and clean up some messy code and extra comments
+<br>
+You can visit the live development in [Repl.it](https://repl.it/@BrianZheng1/K-Best-Average-Algorithm)
