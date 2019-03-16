@@ -23,6 +23,8 @@ print(learn.predict([(6, 6, 6)], 3, 1.1))
 #(2.0, 4.666666666666667, 5.0)
 ```
 <br>
+For more extensive documentation, visit the wiki page
+<br>
 If you have any questions and/or suggestions, feel free to open up an issue or contact me on briansiyuanzheng@gmail.com
 <br>
 In the near future I will upload this package to PyPI and clean up some messy code and extra comments
